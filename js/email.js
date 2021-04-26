@@ -44,6 +44,7 @@ function sendRequest() {
 	finally{
 	jQuery('#contactform').slideUp("slow").hide();
 	jQuery('#contactWrapper').append('<div class="success"><h4>Email Successfully Sent!</h4><br><p>Thank you for using our contact form <strong>'+decodeURIComponent(name)+'</strong>! Your email was successfully sent and we&#39;ll be in touch with you soon.</p></div>');
+	document.getElementById("contactform").submit();
 	}
 }
 function sendRequest_booking() {
@@ -267,11 +268,12 @@ function check_values() {
 	
 
 	if(errors==0) {
-			document.getElementById("submit").disabled=true;
-			document.getElementById("submit").value='Please Wait..';
+			document.getElementById("btnSubmit").disabled=true;
+			document.getElementById("btnSubmit").value='Please Wait..';
 			sendRequest();
 	}
 }
+
 function check_values_loans() {
 	//Form
 	var valid = '';

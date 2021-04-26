@@ -33,6 +33,11 @@
     <link rel='stylesheet' href='css/webdeveloper.css'>
     <link rel='stylesheet' href='css/custom.css'>
 
+    <!--JS-->
+    <script>
+        console.log(document.referrer);
+    </script>
+
 </head>
 
 <body class="color-custom style-default button-flat layout-full-width no-content-padding header-transparent minimalist-header-no sticky-header sticky-tb-color ab-hide subheader-both-center menu-line-below-80 menuo-right menuo-no-borders footer-copy-center mobile-tb-center mobile-side-slide mobile-mini-mr-ll be-reg-2085">
@@ -97,7 +102,7 @@
                                         <div class="column mcb-column one column_column">
                                             <div class="column_attr clearfix" style="background-color: #fff; padding:40px 40px 5px; box-shadow: 0px 0px 30px rgba(200,196,219,.3);">
                                                 <div id="contactWrapper">
-                                                    <form id="contactform" action="https://formspree.io/f/mjvjkldk" method="POST">
+                                                    <form id="contactform" target="_blank" action="https://formspree.io/f/mjvjkldk" method="POST">
                                                         <!-- One Second (1/2) Column -->
                                                         <div class="column one-second">
                                                             <input placeholder="Your name" type="text" name="_name" id="name" size="40" aria-required="true" aria-invalid="false" />
@@ -113,7 +118,7 @@
                                                             <textarea placeholder="Message" name="message" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                                         </div>
                                                         <div class="column one">
-                                                            <input type="submit" value="Send A Message" id="submit">
+                                                            <input type="button" value="Send A Message" id="btnSubmit" onClick="return check_values();">
                                                         </div>
                                                     </form>
                                                 </div>
