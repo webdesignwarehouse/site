@@ -9,29 +9,35 @@
 
 <url>
   <loc>https://webdesignwarehouse.co.za/</loc>
-  <lastmod>2021-07-05T11:57:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://webdesignwarehouse.co.za/index.html</loc>
-  <lastmod>2021-07-05T11:57:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webdesignwarehouse.co.za/content/webdeveloper/about.html</loc>
-  <lastmod>2021-07-05T11:57:23+00:00</lastmod>
+  <loc>https://webdesignwarehouse.co.za/about.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webdesignwarehouse.co.za/content/webdeveloper/gallery.html</loc>
-  <lastmod>2021-07-05T11:57:23+00:00</lastmod>
+  <loc>https://webdesignwarehouse.co.za/gallery.html</loc>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://webdesignwarehouse.co.za/content/webdeveloper/contact.html</loc>
-  <lastmod>2021-07-05T11:57:23+00:00</lastmod>
+  <loc>https://webdesignwarehouse.co.za/contact.html</loc>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://webdesignwarehouse.co.za/services.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://webdesignwarehouse.co.za/privacy-policy.html</loc>
+  <priority>0.10</priority>
+</url>
+<url>
+  <loc>https://webdesignwarehouse.co.za/terms-conditions.html</loc>
+  <priority>0.10</priority>
+</url>
 
 </urlset>
