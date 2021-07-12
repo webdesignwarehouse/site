@@ -63,6 +63,45 @@ border-radius: 50px 20px;
 var LS_Meta = {"v":"6.11.8","fixGSAP":"1"};
 /* ]]> */
 </script>
+	
+	<script type="text/javascript">
+        document.documentElement.className += " optimole_has_js";
+        (function(w, d){
+            var b = d.getElementsByTagName('head')[0];
+            var s = d.createElement("script");
+            var v = ("IntersectionObserver" in w) ? "_no_poly" : "";
+            s.async = true; // This includes the script as async.
+            s.src = "https://d5jmkjjpb7yfg.cloudfront.net/v2/latest/optimole_lib" + v + ".min.js";
+            w.optimoleData = {
+                key: "8a05c301a98db3e0b1a96f8920f08b47181111c130b1823c13a8267cafc586da",
+                quality: "85",
+                lazyloadOnly: "optimole-lazy-only",
+                backgroundReplaceClasses: [],
+                nativeLazyload : false,
+                scalingDisabled: false,
+                watchClasses: [],
+                backgroundLazySelectors: "",
+                network_optimizations: false,
+                ignoreDpr: true,
+            };
+            b.appendChild(s);
+        }(window, document));
+
+        document.addEventListener( "DOMContentLoaded", function() {
+            document.body.className = document.body.className.replace("optimole-no-script","");
+            if ( "loading" in HTMLImageElement.prototype && Object.prototype.hasOwnProperty.call( optimoleData, "nativeLazyload" ) && optimoleData.nativeLazyload === true ) {
+                const images = document.querySelectorAll('img[loading="lazy"]');
+                images.forEach( function (img) {
+                    if ( !img.dataset.optSrc) {
+                        return;
+                    }
+                    img.src = img.dataset.optSrc;
+                    delete img.dataset.optSrc;
+                });
+            }
+        } );
+</script>
+	
 <script type="text/javascript" src="./wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=6.11.8" id="layerslider-utils-js"></script>
 <script type="text/javascript" src="./wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.11.8" id="layerslider-js"></script>
 <script type="text/javascript" src="./wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=6.11.8" id="layerslider-transitions-js"></script>
